@@ -52,6 +52,22 @@ This simple Demo will:
 
 
 
+
+
+##How to use the Demo
+
+Once you have flashed your uc and made the right connections you can follow the next steps
+to begin receiving data
+
+1. From the PC connect to manager and use APIExplorer for the PC
+2. Select the **subscribe** command and write **data events**
+
+3. From the PC with the mote, load APIExplorer for mote
+4. Select **SetNvParameters**, **NetworkId** and give the same one for your motes and gateway (Do this only once!)
+5. Turn on the mote and uc to initiate BareBonesDemo
+
+You only need to do steps 3 and 4 once for each mote and also do the required setNetwork id command for the manager.
+
 This library was made for use in determining the send data rate for 5 motes in 
 different situations. 
 
