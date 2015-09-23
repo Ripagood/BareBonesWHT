@@ -2,7 +2,7 @@
 C library for the SmartMesh WirelessHart Mote
 
 This is a basic C library for using the **SmartMesh WirelessHart Mote by Linear Technology**.
-The main library is contained in BareBonesWHT.c , BareBonesWHT.h and uses the fcs.c,fcs.h, 
+The main library is contained in the **BareBones** folder with BareBonesWHT.c , BareBonesWHT.h and uses the fcs.c,fcs.h, 
 hdlc.c and hdlc.h sources provided by LT.
 
 The library is made for easy porting in mind. To do it, just use the needed structure definition and
@@ -11,8 +11,8 @@ function inside your ISR for USART reception. Just remember to configure the sam
 motes and the manager, configure the most precise **115200 baudrate** in your uc and use the python programs
 given by LT to check the received data on a PC.
 
-A simple Demo for the **Atmega328p** is given here. To use ,flash the microcontroller with the given .hex
-and configure the fuses for using an external 7.3728 Mhz crystal on the needed pins. Check the
+A simple Demo for the **Atmega328p** is given here inside the **BareBonesDemo** folder to use ,flash the microcontroller with 
+the given .hex and configure the fuses for using an external 7.3728 Mhz crystal on the needed pins. Check the
 datasheet for additional information. 
 
 The microcontroller uses the following connections:
