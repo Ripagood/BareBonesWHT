@@ -17,9 +17,9 @@ datasheet for additional information.
 
 The microcontroller uses the following connections:
 
-7.3728 Mhz crystal between PB6,PB7
-LED in PC1
-Switch button to GND on PC2
+* 7.3728 Mhz crystal between PB6,PB7
+* LED in PC1
+* Switch button to GND on PC2
 
 The connections between the microcontroller and the mote are the following:
 
